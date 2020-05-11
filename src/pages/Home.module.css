@@ -1,0 +1,44 @@
+.books {
+  padding: 2rem 0;
+  background-color: var(--dark-slate-grey);
+  color: var(--white);
+}
+
+.bookSpacer {
+  height: 5rem;
+}
+
+.container {
+  max-width: var(--site-width);
+  margin: auto;
+}
+
+.about {
+  padding: 5rem 0;
+}
+
+.newsletter {
+  padding: 3rem 0;
+  background: var(--purple);
+  color: var(--white);
+}
+
+.aboutTeam {
+  background-color: var(--hateful-green);
+  color: var(--white);
+  padding: 5rem 3rem;
+  height: 100%;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutTeam a {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+.aboutTeam a:hover {
+  color: rgba(var(--white_rgb), var(--alpha-dimmed));
+}

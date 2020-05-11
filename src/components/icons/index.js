@@ -1,0 +1,5 @@
+export { default as GitHubIcon } from './GitHubIcon';
+export { default as RssIcon } from './RssIcon';
+export { default as TwitchIcon } from './TwitchIcon';
+export { default as TwitterIcon } from './TwitterIcon';
+export { default as InstagramIcon } from './InstagramIcon';

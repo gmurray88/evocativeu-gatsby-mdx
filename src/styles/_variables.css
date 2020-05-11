@@ -1,0 +1,40 @@
+:root {
+  /* colors */
+  --hateful-green: #80b682;
+  --plum: #DDA0DD;
+  --dark-slate-grey: #2F4F4F;
+
+  --black: #222;
+  --black_hex: var(--black);
+  --black_rgb: 34, 34, 34;
+
+  --gray: #669;
+  --gray_hex: var(--gray);
+  --gray_rgb: 102, 102, 159;
+
+  --white: #fff;
+  --white_hex: var(--white);
+  --white_rgb: 255, 255, 255;
+
+  --purple: #89709b;
+  --purple_hex: var(--purple);
+  --purple_rgb: 137, 112, 155;
+
+  --dark-green: #547d56;
+  --dark-green_hex: var(--dark-green);
+  --dark-green_rgb: 84, 125, 86;
+
+  /* alpha variables */
+  --alpha-dimmed: 0.7;
+  --alpha-full: 1;
+  --alpha-transparent: 0;
+
+  /* font stuff */
+  --serif-font-family: 'Arvo', serif;
+  --sans-serif-font-family: 'Open sans', sans-serif;
+  --post-serif-font-family: 'Noto Serif TC', Georgia, Cambria, 'Times New Roman',
+    Times, serif;
+
+  /* sizes */
+  --site-width: 1260px;
+}

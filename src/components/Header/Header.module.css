@@ -1,0 +1,47 @@
+.background {
+  background-color: var(--white);
+}
+
+.header {
+  /* max-width: var(--site-width); */
+  margin: 0 auto;
+  padding: 1rem 0 1rem 0;
+}
+
+.headerImage {
+  max-height: 100px;
+  max-width: 90vw;
+}
+
+.navbar {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin: 0 0 1rem 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 5vh;
+  line-height: 1.2em;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+}
+
+.title a {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.link {
+  color: rgba(var(--purple), var(--alpha-dimmed));
+  text-decoration: none;
+  padding-right: 2rem;
+}
+
+.link:hover {
+  color: rgba(var(--purple), var(--alpha-full));
+}

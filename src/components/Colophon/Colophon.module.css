@@ -1,0 +1,14 @@
+.colophon {
+  display: block;
+  border: 0;
+  text-align: center;
+  overflow: visible;
+  height: 1rem;
+  margin: 4rem auto 4rem;
+}
+
+.colophon:before {
+  content: '***';
+  color: var(--purple);
+  letter-spacing: 1.5rem;
+}

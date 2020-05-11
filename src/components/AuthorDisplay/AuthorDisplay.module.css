@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+}
+
+.authorImage {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+}
+
+.metadataContainer {
+  display: 'flex';
+  flex-direction: 'column';
+}
+
+.authorName {
+  color: var(--dark-green);
+  font-weight: 500;
+}
+
+.date,
+.readingTime {
+  color: rgba(var(--black_rgb), var(--alpha-dimmed));
+  font-size: 10pt;
+}

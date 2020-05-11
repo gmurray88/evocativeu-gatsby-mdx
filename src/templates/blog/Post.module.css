@@ -1,0 +1,50 @@
+.coverImageContainer {
+  margin: 0;
+  padding: 0;
+}
+
+.coverImage {
+  max-height: 60vh;
+}
+
+.post {
+  margin-top: 3rem;
+  font-family: var(--post-serif-font-family);
+  font-size: 21px;
+  font-weight: light;
+}
+
+.post * img {
+  max-width: 100%;
+}
+
+.post ul,
+.post ol {
+  margin: 2.5rem 0 2.5rem 2rem;
+}
+
+.post ul {
+  list-style: disc;
+}
+
+.post ol {
+  list-style: decimal;
+}
+
+.post ol li,
+.post ul li {
+  margin-bottom: 0.75rem;
+}
+
+.metadata {
+  margin-bottom: 3rem;
+}
+
+.postTitle {
+  font-weight: 400;
+}
+
+.authorName {
+  font-family: var(--sans-serif-font-family);
+  font-size: 1rem;
+}
