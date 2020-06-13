@@ -9,6 +9,7 @@ export const CoverImage = ({ src, alt, ...rest }) => {
       allImageSharp {
         edges {
           node {
+           
             fluid(maxWidth: 1600) {
               ...GatsbyImageSharpFluid_withWebp_noBase64
               originalName

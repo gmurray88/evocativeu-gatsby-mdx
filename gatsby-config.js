@@ -38,6 +38,7 @@ module.exports = {
               maxWidth: 1200,
               quality: 100,
               linkImagesToOriginal: false,
+              showCaptions: true,
               disableBgImageOnAlpha: true,
             },
           },
@@ -57,8 +58,12 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        stripMetadata: false,
+      }
+    },
     {
       resolve: `gatsby-transformer-sharp`,
       options: {
@@ -165,6 +170,7 @@ module.exports = {
         ],
       },
     },
+    'gatsby-plugin-sharp-exif',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
