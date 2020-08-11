@@ -147,9 +147,6 @@ module.exports = {
                     id
                     frontmatter {
                       title
-                      name
-                      coverImage
-                      title
                       subtitle
                       author
                       date
