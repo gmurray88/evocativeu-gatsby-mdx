@@ -22,9 +22,7 @@ const CommunityPage = () => (
                 View your playlists in virtual reality. Make your own museums.
                 Bring every Picasso, Van Gogh or Caravaggio into a single exhibition hall.
             </p>
-
-
-              <Image src="ArtComposite.png" alt="Art Playlists" />
+              <Image src="ArtComposite.jpg" alt="Art Playlists" />
             </Col>
           </Row>
         </div>

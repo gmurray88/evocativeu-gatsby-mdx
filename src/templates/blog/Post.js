@@ -32,7 +32,7 @@ const Post = ({ data, pageContext }) => {
           process.env.DEPLOY_PRIME_URL ||
           process.env.DEPLOY_URL ||
           process.env.URL ||
-          'https://apisyouwonthate.com';
+          'https://evocativeu.com';
 
         return (
           <Layout>

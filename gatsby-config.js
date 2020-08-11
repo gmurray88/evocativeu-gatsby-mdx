@@ -100,7 +100,7 @@ module.exports = {
         trackingId: 'UA-8523256-6',
         // Puts tracking script in the head instead of the body
         head: false,
-        cookieDomain: 'apisyouwonthate.com',
+        cookieDomain: 'evocativeu.com',
       },
     },
     {

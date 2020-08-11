@@ -4,6 +4,7 @@ import { graphql } from 'gatsby';
 // boostrap stuff
 import { Col, Container, Row } from 'react-bootstrap';
 
+
 import { Image, Layout, SEO } from '../components';
 
 
@@ -27,11 +28,16 @@ class IndexPage extends React.Component {
               <p>
                 Art For Art's Sake
             </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col xl={{ span: 8, offset: 2 }}>
+
               <Image src="SohoNeon.jpg" alt="Soho Neon" />
             </Col>
           </Row>
-        </Container>
 
+        </Container>
 
       </Layout>
     )
