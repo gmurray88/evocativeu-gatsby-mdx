@@ -28,6 +28,7 @@
     "gatsby-source-shopify": "^3.2.26",
     "gatsby-transformer-remark": "^2.8.28",
     "gatsby-transformer-sharp": "^2.5.13",
+    "jpeg-autorotate": "^6.0.0",
     "moment": "^2.27.0",
     "pluralize": "^8.0.0",
     "prismjs": "^1.21.0",

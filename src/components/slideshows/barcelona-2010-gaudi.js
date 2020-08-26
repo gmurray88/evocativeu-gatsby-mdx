@@ -1,9 +1,11 @@
 import * as React from 'react'
 import Img from 'gatsby-image'
 import { graphql, useStaticQuery } from 'gatsby'
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from 'react-responsive-carousel'
-import classes from './Slideshow.module.css';
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import '../../styles/carousel.css';
+
+
 
 const BarcaGaudiSlideShow = () => {
   const { allFile } = useStaticQuery(
@@ -27,33 +29,31 @@ const BarcaGaudiSlideShow = () => {
                        }
                      }
                     }
-                    fluid(maxWidth: 1024) {
-                        ...GatsbyImageSharpFluid
+                    fluid(maxWidth: 2048) {
+                       ...GatsbyImageSharpFluid
                       }
                     }
-                  }
+                   }
                 }
               }
             }
           `,
   )
   return (
-    <div >
-      <div>
-        <Carousel
-          showArrows={true}
-          showThumbs={false}
-        >
-          {allFile.edges.map(({ node }) => (
-            <div>
-              <Img fluid={node.childImageSharp.fluid} />
-              <p className="legend">
-                {node.childImageSharp.fields.exif.raw.image.ImageDescription}
-              </p>
-            </div>
-          ))}
-        </Carousel>
-      </div>
+    <div>
+      <Carousel
+        showArrows={false}
+        showThumbs={false}
+      >
+        {allFile.edges.map(({ node }) => (
+          <div>
+            <Img fluid={node.childImageSharp.fluid} />
+            <p className="legend2">
+              {node.childImageSharp.fields.exif.raw.image.ImageDescription}
+            </p>
+          </div>
+        ))}
+      </Carousel>
     </div>
   )
 }
