@@ -42,13 +42,15 @@ const BarcaGaudiSlideShow = () => {
   return (
     <div>
       <Carousel
-        showArrows={false}
+        showArrows={true}
         showThumbs={false}
       >
         {allFile.edges.map(({ node }) => (
           <div>
-            <Img fluid={node.childImageSharp.fluid} />
-            <p className="legend2">
+            <Img style={{ marginLeft: "auto", marginRight: "auto", maxHeight: "80vh", maxWidth: `calc(80vh * ${node.childImageSharp.fluid.aspectRatio})` }}
+
+              fluid={node.childImageSharp.fluid} />
+            <p>
               {node.childImageSharp.fields.exif.raw.image.ImageDescription}
             </p>
           </div>

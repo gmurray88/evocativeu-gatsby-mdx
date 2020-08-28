@@ -9,8 +9,8 @@
 
 .post {
   margin-top: 3rem;
-  font-family: var(--post-serif-font-family);
-  font-size: 21px;
+  font-family: var(--sans-serif-font-family);
+  font-size: 14px;
   font-weight: light;
 }
 
