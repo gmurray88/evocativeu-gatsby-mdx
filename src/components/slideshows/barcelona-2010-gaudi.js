@@ -13,6 +13,7 @@ const BarcaGaudiSlideShow = () => {
     query {
         allFile(
             filter: {relativeDirectory: {eq: "slideshows/barcelona-2010-gaudi"}}
+            sort: {fields: name, order: ASC}
             ) {
               edges {
                 node {

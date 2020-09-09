@@ -30,7 +30,9 @@ const Image = ({ src, ...rest }) => {
 
   return (
     <div className={classes.container}>
-      <Img fluid={image.node.fluid} alt={src}  {...rest} />
+      <Img style={{ marginLeft: "auto", marginRight: "auto", maxHeight: "80vh", maxWidth: `calc(80vh * ${image.node.fluid.aspectRatio})` }}
+        fluid={image.node.fluid} alt={src}  {...rest} />
+
     </div>
   )
 };

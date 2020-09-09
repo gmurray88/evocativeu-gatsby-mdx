@@ -15,7 +15,7 @@ const TextCollapse = ({ src }) => {
     maxHeight: 180,
     textStyle: {
       color: 'black',
-      fontSize: '20px'
+      fontSize: '14px'
     }
   };
 
@@ -45,7 +45,7 @@ const TextCollapse = ({ src }) => {
     edge => edge.node.fluid.originalName === src
   );
   const desc = image.node.fields.exif.raw.image.ImageDescription.toString();
-  if (desc.length > 50) {
+  if (desc.length > 500) {
     return (
       <div className={classes.container}>
         <ReactTextCollapse options={TEXT_COLLAPSE_OPTIONS}>

@@ -12,6 +12,7 @@ const AmerUtopiaSlideShow = () => {
     query {
         allFile(
             filter: {relativeDirectory: {eq: "slideshows/american-utopia-sac"}}
+            sort: {fields: name, order: ASC}
             ) {
               edges {
                 node {
