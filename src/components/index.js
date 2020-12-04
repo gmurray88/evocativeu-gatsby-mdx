@@ -9,6 +9,7 @@ export { Image } from './Image';
 export { Layout } from './Layout';
 export { SEO } from './SEO';
 export { TextCollapse } from './TextCollapse';
+export { Video } from './Video';
 
 
 
