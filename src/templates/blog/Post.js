@@ -58,18 +58,10 @@ const Post = ({ data, pageContext }) => {
                 </Row>
               </Container>
             )}
-            <Container className={classes.post}>
+            <Container fluid className={classes.post}>
               <Row>
                 <Col
-                  lg={{
-                    span: 10,
-                    offset: 1,
-                  }}
-                  xl={{
-                    span: 8,
-                    offset: 2,
-                  }}
-                >
+                         >
                   <div className={classes.metadata}>
                     <h2 className={classes.postTitle}>
                       {post.frontmatter.title}

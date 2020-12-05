@@ -17,10 +17,10 @@ class IndexPage extends React.Component {
       <Layout>
         <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
 
-        <Container className={classes.about}>
+        <Container fluid className={classes.about}>
 
           <Row>
-            <Col xl={{ span: 8, offset: 2 }}>
+            <Col >
               <h2>ee-vok'-uh-tiv</h2>
               <p>
                 Bringing strong images, memories, or feelings to mind
@@ -31,7 +31,7 @@ class IndexPage extends React.Component {
             </Col>
           </Row>
           <Row>
-            <Col xl={{ span: 8, offset: 2 }}>
+            <Col>
 
               <Image src="SohoNeon.jpg" alt="Soho Neon" />
             </Col>

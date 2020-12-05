@@ -17,7 +17,7 @@ const BlogPage = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <Container className={classes.container}>
+      <Container fluid className={classes.container}>
         <Row>
           {posts.map((post, idx) => (
             <BlogPostItem key={post.id} post={post} feature={idx === 0} />

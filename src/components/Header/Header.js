@@ -10,7 +10,7 @@ import classes from './Header.module.css';
 
 const Header = ({ siteTitle }) => (
   <div className={classes.background}>
-    <Container className={classes.container}>
+    <Container fluid className={classes.container}>
       <Row>
         <Col>
           <header className={classes.header}>
